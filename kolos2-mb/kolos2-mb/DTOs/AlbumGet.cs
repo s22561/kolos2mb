@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace kolos_probny_MB.DTOs
+namespace kolos2_mb.DTOs
 {
     public class AlbumGet
     {

@@ -23,7 +23,7 @@ namespace kolos2_mb.Services
 
         public IQueryable<Album> GetAlbumById(int IdAlbum)
         {
-            return _context.Album.Where(e => e.IdAlbum == IdAlbum);
+            return _context.Album.Where(e => e.IdAlbum == IdAlbum); 
         }
 
         public async Task SaveChangesAsync()

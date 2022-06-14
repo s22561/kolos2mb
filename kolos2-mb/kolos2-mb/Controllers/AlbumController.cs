@@ -1,4 +1,4 @@
-﻿using kolos_probny_MB.DTOs;
+﻿using kolos2_mb.DTOs;
 using kolos2_mb.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
