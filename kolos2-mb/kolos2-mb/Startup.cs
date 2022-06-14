@@ -31,7 +31,7 @@ namespace kolos2_mb
         {
             services.AddDbContext<MusicContext>(opt =>
             {
-                opt.UseSqlServer("Data Source=db-mssql;Initial Catalog=2019SBD;Integrated Security=true;Password=1msureWE4RET4LLER");
+                opt.UseSqlServer("Data Source=db-mssql;Initial Catalog=2019SBD;Integrated Security=true;Password=jakiesHaslo");
             });
             services.AddScoped<IMusicService, MusicService>();
             services.AddControllers();
